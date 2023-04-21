@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Silkscreen', cursive;
+}
+#all
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("tlo5.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+#scriptos h1{
+    color:white;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+}
+#scriptos h2{
+    color:white;
+    border-radius: 8px;
+    border: 4px solid #ccc;
+}
+#scriptos{
+    padding-top: 50px;
+    width: 77.5vh;
+    height: 28vh;
+    margin: auto;
+    text-align: center;
+    padding-right: 35vh;
+}
+#for
+{
+    color:white;
+    font-size: 2vh;
+    width: 55vh;
+    height: 17vh;
+    text-align: center;
+    background-color: transparent;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    padding-bottom: 6vh;
+    margin-left: 188px;
+
+}
+input[type=text] {
+    padding:0.5vh;
+    border:0;
+    margin:10px 0;
+}
+input[type=password]
+{
+    padding:0.5vh;
+    border:0;
+    margin:10px 0;
+}
+.toppo{
+    margin-left: 65px;
+    padding-bottom: 25px;
+}
+button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding-top: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 12px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-size: 2vh;
+}
+button:hover{
+    background: dodgerblue;
+    transition: 1s;
+}
+.wyloged{
+    margin-top: 25px;
+    margin-left: 180px;
+    padding-right: 180px;
+}
+#err
+{
+    width: 300px;
+    height: 30px;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: greenyellow;
+    background-color: greenyellow;
+}
+.mes
+{
+     animation: fade 2s linear;
+     animation-fill-mode: forwards;
+}
+.kekw{
+    padding:0.5vh;
+    border:0;
+}
+@keyframes fade {
+  to { opacity: 0;}
+}

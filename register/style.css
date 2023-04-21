@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+#all
+{
+    color:white;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("reg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+h1{
+    padding: 150px;
+    font-size: 50px;
+}
+h2{
+    padding-left: 150px;
+}
+#form{
+    padding: 150px;
+    padding-top: 0px;
+    font-size: 35px;
+}
+input[type=text]{
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 300px;
+    font-size: 25px;
+}
+input[id=name]{
+    margin-bottom: 40px;
+}
+input[type=password]{
+    padding: 15px;
+    width: 300px;
+    font-size: 25px;
+}
+button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding-top: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 12px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-size: 3vh;
+}
+button:hover{
+    background: dodgerblue;
+    transition: 1s;
+}
+#odp{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding-top: 12px;
+    margin-left: 180px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 12px;
+    max-width: 75vh;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    font-size: 3.3vh;
+}

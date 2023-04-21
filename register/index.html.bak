@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Registration machen</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    
+</head>
+<body>
+<div id="all">
+    <h1>Rejestracja</h1>
+    <form id="form">
+        <label for="name">Nazwa użytkownika:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Adres email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="password">Hasło: </label>
+        <input type="password" id="password" name="pass">
+        <button type="submit" id="send">Send</button>
+        <button type="reset" id="clear">Clear</button>
+    </form>
+    <div id="odp"></div>
+    <script src="java.js"></script>
+</div>
+
+</body>
+</html>

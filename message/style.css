@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+.heads{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("tlo4.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+#all h1{
+    color:white;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+}
+#all
+{
+    padding-top: 50px;
+    width: 77.5vh;
+    height: 28vh;
+    margin: auto;
+    text-align: center;
+    padding-right: 35vh;
+}
+#form
+{
+    color:white;
+    font-size: 2vh;
+    width: 75vh;
+    height: 27vh;
+    text-align: center;
+    background-color: transparent;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    padding-bottom: 6vh;
+}
+input[type=text] {
+    padding:0.5vh;
+    border:0;
+    margin:10px 0;
+}
+button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding-top: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 12px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-size: 2vh;
+}
+button:hover{
+    background: dodgerblue;
+    transition: 1s;
+}
+#es{
+    margin-bottom: 1vh;
+}
+#good,#bad
+{
+    display: none;
+    width: 300px;
+    height: 20px;
+	border-style: solid;
+    border-width: 3px;
+    background-color:green;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 10px;
+	margin: auto;
+    margin-top: 10px;
+
+}
+#bad
+{
+    background-color:red;
+
+}
